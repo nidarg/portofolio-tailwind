@@ -80,7 +80,7 @@ export const projects = [
   {
     id: nanoid(),
     img: IMAGES.GGPhoneShop,
-    url: 'hhttps://ggp-hone-shop-next-js.vercel.app/',
+    url: 'https://ggp-hone-shop-next-js.vercel.app/',
     github: 'https://github.com/nidarg/GGPhoneShopNextJS',
     title: 'GGPhoneShop',
     text: 'Shop App created with Next.js and Sanity.',
