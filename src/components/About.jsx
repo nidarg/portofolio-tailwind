@@ -8,7 +8,7 @@ const About = () => {
         <article>
           <SectionTitle text='some words about me...' />
           <p className='text-slate-600 mt-8 leading-loose'>
-            I work as a site administrator at the Technical University of
+            I work as web developer and site administrator at the Technical University of
             Cluj-Napoca, I followed a postgraduate course in applied informatics
             and programming, more than a bunch of courses on Udemy, and
             countless hours of trials, frustrations and satisfactions in

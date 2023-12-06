@@ -2,7 +2,8 @@ import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaNode } from 'react-icons/fa'
 import { BiLogoTailwindCss } from 'react-icons/bi'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiNestjs } from 'react-icons/si'
+import { SiNestjs, SiTypescript } from 'react-icons/si'
+import { AiOutlineApi } from "react-icons/ai"
 import IMAGES from './images/Images'
 // import { evidenta_acte_juridice } from './images/Images/evidentaActeJuridice.PNG'
 // import { GGSpyShop } from './assets/GGSpyShop.PNG'
@@ -57,6 +58,18 @@ export const skills = [
     title: 'NestJs',
     icon: <SiNestjs className='h-16 w-16 text-emerald-500' />,
     text: 'Design, develop, and maintain server-side applications using NestJS',
+  },
+  {
+    id: nanoid(),
+    title: 'TypeScript',
+    icon: <SiTypescript className='h-16 w-16 text-emerald-500' />,
+    text: 'Expertise in TypeScript',
+  },
+  {
+    id: nanoid(),
+    title: 'RESTful APIs',
+    icon: <AiOutlineApi  className='h-16 w-16 text-emerald-500' />,
+    text: 'Design and develop RESTful APIs using Node.js, Express,integrate APIs with databases such as MongoDB, MySQL',
   },
 ]
 

@@ -12,19 +12,20 @@ const Hero = () => {
           <p className='mt-4 text-3xl capitalize tracking-wide'>
             Full-Stack Developer
           </p>
-          <p className='mt-2 text-lg capitalize tracking-wide'>
+          {/* <p className='mt-2 text-lg capitalize tracking-wide'>
             Bring your ideas to digital life
-          </p>
+          </p> */}
           <div className='flex gap-x-4 mt-4'>
-            <a href='#'>
-              <FaGithubSquare className='h-8 w-8 text-slate-100 hover:text-emerald-500' />
-            </a>
-            <a href='#'>
+          <a href='https://www.linkedin.com/in/gradin-gheti-092b36168/' target='_blank'>
               <FaLinkedin className='h-8 w-8 text-slate-100 hover:text-emerald-500' />
             </a>
-            <a href='#'>
-              <FaTwitterSquare className='h-8 w-8 text-slate-100 hover:text-emerald-500' />
+            <a href='https://github.com/nidarg' target='_blank'>
+              <FaGithubSquare className='h-8 w-8 text-slate-100 hover:text-emerald-500' />
             </a>
+          
+            {/* <a href='#'>
+              <FaTwitterSquare className='h-8 w-8 text-slate-100 hover:text-emerald-500' />
+            </a> */}
           </div>
         </article>
         <article className='hidden sm:block'>

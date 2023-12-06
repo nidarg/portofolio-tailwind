@@ -1,14 +1,14 @@
 import { FaGithubSquare } from 'react-icons/fa'
 import { TbWorldWww } from 'react-icons/tb'
-const ProjectsCard = ({ url, img, github, title, text }) => {
+const ProjectsCard = ({ url, image, github, title, text }) => {
   return (
     <article className='bg-white p-4 rounded-lg shadow-md block hover:shadow-xl duration-300'>
       <img
-        src={img}
+        src={image}
         alt={title}
-        className='w-full object-cover  h-64 border-b shadow-md '
+        className='w-full object-cover  h-48 border-b shadow-xl '
       />
-      <div className='capitalize p-8'>
+      <div className='p-4'>
         <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
         <p className='mt-4 text-slate-700 leading-loose'>{text}</p>
         <div className='mt-4 flex gap-x-4'>
