@@ -73,29 +73,29 @@ export const skills = [
   },
 ]
 
-export const projects = [
-  {
-    id: nanoid(),
-    img: IMAGES.evidentaActeJuridice,
-    url: 'https://evidenta-acte-juridice.vercel.app/landing',
-    github: 'https://github.com/nidarg/evidenta-acte-juridice',
-    title: 'Evidenta Acte Juridice',
-    text: 'Application for the management of legal documents through which the client has a clear record of the deadline for the preparation or submission to the court of the respective documents',
-  },
-  {
-    id: nanoid(),
-    img: IMAGES.GGSpyShop,
-    url: 'https://gg-shop-mern.vercel.app/',
-    github: 'https://github.com/nidarg/mern-shop-GG',
-    title: 'GGSpyShop',
-    text: 'Shop App created with React, Redux as state management, mongoose, express, react-bootstrap.',
-  },
-  {
-    id: nanoid(),
-    img: IMAGES.GGPhoneShop,
-    url: 'https://ggp-hone-shop-next-js.vercel.app/',
-    github: 'https://github.com/nidarg/GGPhoneShopNextJS',
-    title: 'GGPhoneShop',
-    text: 'Shop App created with Next.js and Sanity.',
-  },
-]
+// export const projects = [
+//   {
+//     id: nanoid(),
+//     img: IMAGES.evidentaActeJuridice,
+//     url: 'https://evidenta-acte-juridice.vercel.app/landing',
+//     github: 'https://github.com/nidarg/evidenta-acte-juridice',
+//     title: 'Evidenta Acte Juridice',
+//     text: 'Application for the management of legal documents through which the client has a clear record of the deadline for the preparation or submission to the court of the respective documents',
+//   },
+//   {
+//     id: nanoid(),
+//     img: IMAGES.GGSpyShop,
+//     url: 'https://gg-shop-mern.vercel.app/',
+//     github: 'https://github.com/nidarg/mern-shop-GG',
+//     title: 'GGSpyShop',
+//     text: 'Shop App created with React, Redux as state management, mongoose, express, react-bootstrap.',
+//   },
+//   {
+//     id: nanoid(),
+//     img: IMAGES.GGPhoneShop,
+//     url: 'https://ggp-hone-shop-next-js.vercel.app/',
+//     github: 'https://github.com/nidarg/GGPhoneShopNextJS',
+//     title: 'GGPhoneShop',
+//     text: 'Shop App created with Next.js and Sanity.',
+//   },
+// ]
