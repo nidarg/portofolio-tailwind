@@ -9,7 +9,7 @@ const About = () => {
           <SectionTitle text='some words about me...' />
           <p className='text-slate-600 mt-8 leading-loose'>
             I work as web developer and site administrator at the Technical University of
-            Cluj-Napoca, My journey in the technical field began with a two year post-graduate networking course at the Technical University of Cluj-Napoca, followed by a CCNA Cisco certification.
+            Cluj-Napoca. My journey in the technical field began with a two year post-graduate networking course at the Technical University of Cluj-Napoca, followed by a CCNA Cisco certification.
 After that, I followed a postgraduate course in applied informatics and programming, more than a bunch of courses on Udemy, and countless hours of trials, frustrations and satisfactions in creating all kinds of web applications
           </p>
         </article>
